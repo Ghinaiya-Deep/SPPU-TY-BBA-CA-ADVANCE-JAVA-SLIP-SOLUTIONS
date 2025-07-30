@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html" %>
+<html>
+<head>
+    <title>Teacher Form</title>
+</head>
+<body>
+    <h2>Enter Teacher Details</h2>
+    <form action="displayTeacher.jsp" method="post">
+        Teacher ID: <input type="text" name="tid"><br><br>
+        Name: <input type="text" name="tname"><br><br>
+        Salary: <input type="text" name="salary"><br><br>
+        Subject: <input type="text" name="subject"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
